@@ -1,29 +1,29 @@
 // i will declare variables
-// const productName = prompt("enter productName");
-// const model = prompt("enter model");
-// const cost = prompt("enter cost");
-// const qty = prompt("enter qty");
+const productName = prompt("enter productName");
+const model = prompt("enter model");
+const cost = prompt("enter cost");
+const qty = prompt("enter qty");
 
-// const productName2 = prompt("enter productName");
-// const model2 = prompt("enter model");
-// const cost12 = prompt("enter cost");
-// const qty2 = prompt("enter qty2");
+const productName2 = prompt("enter productName");
+const model2 = prompt("enter model");
+const cost12 = prompt("enter cost");
+const qty2 = prompt("enter qty2");
 
-// const productName3 = prompt("enter productName");
-// const model3 = prompt("enter model");
-// const cost3 = prompt("enter cost");
-// const qty23= prompt("enter qty3");
+const productName3 = prompt("enter productName");
+const model3 = prompt("enter model");
+const cost3 = prompt("enter cost");
+const qty23= prompt("enter qty3");
 
-// const productName4 = prompt("enter productName");
-// const model4 = prompt("enter model");
-// const cost4 = prompt("enter cost");
-// const qty4 = prompt("enter qty");
+const productName4 = prompt("enter productName");
+const model4 = prompt("enter model");
+const cost4 = prompt("enter cost");
+const qty4 = prompt("enter qty");
 
 
-// const productName5 = prompt("enter productName");
-// const model5 = prompt("enter model");
-// const cost5 = prompt("enter cost");
-// const qty5 = prompt("enter qty");
+const productName5 = prompt("enter productName");
+const model5 = prompt("enter model");
+const cost5 = prompt("enter cost");
+const qty5 = prompt("enter qty");
 
 
 
@@ -81,13 +81,13 @@ console.log(productCatalog);
 
 
 productCatalog2[
-    [productName, model, cost, qty];
-    [productName2, model2, cost2, qty2];
-    [productName3, model3, cost3, qty3];
-    [productName4, model4, cost4, qty4];
-    [productName5, model5, cost4, qty5];
+    [productName, model, cost, qty],
+    [productName2, model2, cost2, qty2],
+    [productName3, model3, cost3, qty3],
+    [productName4, model4, cost4, qty4],
+    [productName5, model5, cost4, qty5],
    
-]
+];
 console.log(productCatalog2);
 
 for (
