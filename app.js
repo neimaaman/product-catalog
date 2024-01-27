@@ -86,14 +86,21 @@ productCatalog2[
     [productName3, model3, cost3, qty3];
     [productName4, model4, cost4, qty4];
     [productName5, model5, cost4, qty5];
-
+   
 ]
 console.log(productCatalog2);
 
-for 
+for (
+    let myCounter = 0;
+    myCounter < 5;
+    myCounter = myCounter + 1
+)
+{
+     console.log("current index: ",  myCounter )
+};
 
-
-
-
-
+const bodyElement = document.body;
+const newText = document.createElement("div");
+newText.classList.add("h-screen", "flex", "justify-center","items-center", "bg-red-500" ,"w-64");
+    
 
