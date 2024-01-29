@@ -79,6 +79,7 @@ console.log(productCatalog);
 productCatalog.push(qty5)
 console.log(productCatalog);
 
+console.log(productCatalog.length)
 
 productCatalog2[
     [productName, model, cost, qty],
