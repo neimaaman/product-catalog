@@ -81,15 +81,6 @@ console.log(productCatalog);
 
 console.log(productCatalog.length)
 
-productCatalog2[
-    [productName, model, cost, qty],
-    [productName2, model2, cost2, qty2],
-    [productName3, model3, cost3, qty3],
-    [productName4, model4, cost4, qty4],
-    [productName5, model5, cost4, qty5],
-   
-];
-console.log(productCatalog2);
 
 for (
     let myCounter = 0;
@@ -108,8 +99,17 @@ for (
      console.log("current index: ",  myCounter )
 };
 
+alert("productCatalog");
+
 const bodyElement = document.body;
 const newText = document.createElement("div");
-bodyElement.appendChild(newText);
 newText.classList.add("h-screen", "flex", "justify-center","items-center", "bg-red-500" ,"w-64");
-    
+ newText.innerHTML = `
+<div class= "bg-green-300">
+<p class="text-gray-600 text-xs uppercase "> miles to km by @neimaaman </p>
+<p class="text-4xl"> miles to km :<span class="font-bold text-white "> ${myCounter}</span> </p>
+
+</div>
+ ` ; 
+
+bodyElement.appendChild(newText);
