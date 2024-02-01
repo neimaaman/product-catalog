@@ -6,13 +6,13 @@ const qty = prompt("enter qty");
 
 const productName2 = prompt("enter productName");
 const model2 = prompt("enter model");
-const cost12 = prompt("enter cost");
+const cost2 = prompt("enter cost");
 const qty2 = prompt("enter qty2");
 
 const productName3 = prompt("enter productName");
 const model3 = prompt("enter model");
 const cost3 = prompt("enter cost");
-const qty23= prompt("enter qty3");
+const qty3= prompt("enter qty3");
 
 const productName4 = prompt("enter productName");
 const model4 = prompt("enter model");
@@ -56,7 +56,7 @@ productCatalog.push(model3);
 console.log(productCatalog);
 productCatalog.push(cost3);
 console.log(productCatalog);
-productCatalog.push(qty3)
+productCatalog.push(qty3);
 console.log(productCatalog);
 
 
@@ -96,12 +96,20 @@ for (
     myCounter < 5;
     myCounter = myCounter + 1
 )
+
+
+
+
+
+
+
+
 {
      console.log("current index: ",  myCounter )
 };
 
 const bodyElement = document.body;
 const newText = document.createElement("div");
+bodyElement.appendChild(newText);
 newText.classList.add("h-screen", "flex", "justify-center","items-center", "bg-red-500" ,"w-64");
     
-
