@@ -79,7 +79,15 @@ console.log(productCatalog);
 productCatalog.push(qty5)
 console.log(productCatalog);
 
-console.log(productCatalog.length)
+console.log(productCatalog.length);
+
+let productCatalog2 = [
+    [productName, model, cost, qty],
+    [productName2, model2, cost2, qty2],
+    [productName3, model3, cost3, qty3],
+    [productName4, model4, cost4, qty4],
+    [productName5, model5, cost5, qty5],
+];
 
 
 for (
@@ -90,7 +98,60 @@ for (
     console.log("current index: ", myCounter)
 
 
-alert("productCatalog");
+console.log (
+    `
+    product 1
+    product name is: ${productCatalog2[0] [0]}
+    product model is: ${productCatalog2[0] [1]}
+    product cost is: ${productCatalog2[0] [2]}
+    product quantity is: ${productCatalog2[0] [3]}
+
+    `
+)
+
+console.log (
+    `
+    product 2
+    product name is: ${productCatalog2[1] [0]}
+    product model is: ${productCatalog2[1] [1]}
+    product cost is: ${productCatalog2[1] [2]}
+    product quantity is: ${productCatalog2[1] [3]}
+    
+    `
+)
+
+console.log (
+    `
+    product 3
+    product name is: ${productCatalog2[2] [0]}
+    product model is: ${productCatalog2[2] [1]}
+    product cost is: ${productCatalog2[2] [2]}
+    product quantity is: ${productCatalog2[2] [3]}
+    
+    `
+)
+
+console.log (
+    `
+    product 4
+    product name is: ${productCatalog2[3] [0]}
+    product model is: ${productCatalog2[3] [1]}
+    product cost is: ${productCatalog2[3] [2]}
+    product quantity is: ${productCatalog2[3] [3]}
+    
+    `
+)
+
+console.log (
+    `
+    product 5
+    product name is: ${productCatalog2[4] [0]}
+    product model is: ${productCatalog2[4] [1]}
+    product cost is: ${productCatalog2[4] [2]}
+    product quantity is: ${productCatalog2[4] [3]}
+    
+    `
+)
 
 const bodyElement = document.body;
 const newText = document.createElement("div");
@@ -98,7 +159,7 @@ newText.classList.add("h-screen", "flex", "justify-center", "items-center", "bg-
 newText.innerHTML = `
 <div class= "bg-green-300">
 <p class="text-gray-600 text-xs uppercase ">  </p>
-<p class="text-4xl"> products <span class="font-bold text-white "> ${myCounter}</span> </p>
+<p class="text-4xl"> products <span class="font-bold text-white "> ${produc}</span> </p>
 
 </div>
  ` ;
