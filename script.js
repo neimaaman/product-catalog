@@ -12,7 +12,7 @@ const qty2 = prompt("enter qty2");
 const productName3 = prompt("enter productName");
 const model3 = prompt("enter model");
 const cost3 = prompt("enter cost");
-const qty3= prompt("enter qty3");
+const qty3 = prompt("enter qty3");
 
 const productName4 = prompt("enter productName");
 const model4 = prompt("enter model");
@@ -86,30 +86,22 @@ for (
     let myCounter = 0;
     myCounter < 5;
     myCounter = myCounter + 1
-)
+) {
+    console.log("current index: ", myCounter)
 
-
-
-
-
-
-
-
-{
-     console.log("current index: ",  myCounter )
-};
 
 alert("productCatalog");
 
 const bodyElement = document.body;
 const newText = document.createElement("div");
-newText.classList.add("h-screen", "flex", "justify-center","items-center", "bg-red-500" ,"w-64");
- newText.innerHTML = `
+newText.classList.add("h-screen", "flex", "justify-center", "items-center", "bg-red-500", "w-64");
+newText.innerHTML = `
 <div class= "bg-green-300">
-<p class="text-gray-600 text-xs uppercase "> miles to km by @neimaaman </p>
-<p class="text-4xl"> miles to km :<span class="font-bold text-white "> ${myCounter}</span> </p>
+<p class="text-gray-600 text-xs uppercase ">  </p>
+<p class="text-4xl"> products <span class="font-bold text-white "> ${myCounter}</span> </p>
 
 </div>
- ` ; 
+ ` ;
 
 bodyElement.appendChild(newText);
+};
